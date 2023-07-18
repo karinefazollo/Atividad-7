@@ -53,3 +53,6 @@ function insert() {
     <td>${radio}</td>
     `;
 }
+function scrollToTop() {
+  window.scrollTo(0, 0);
+}
