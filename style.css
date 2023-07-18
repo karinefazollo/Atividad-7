@@ -1,0 +1,114 @@
+html {
+  scroll-behavior: smooth;
+}
+
+h1 {
+  text-align: center;
+  text-transform: uppercase;
+  color: rgb(245, 0, 159);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+h2 {
+  text-align: center;
+  text-transform: uppercase;
+  color: rgb(245, 0, 159);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+img {
+  width: 180px;
+  display: flex;
+  margin: auto;
+  border-bottom: 5px solid yellow;
+  border-top: 5px solid yellow;
+  border-left: 5px solid yellow;
+  border-right: 5px solid yellow;
+}
+
+body {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 4px;
+  background: rgb(250, 83, 246);
+  background: linear-gradient(
+    90deg,
+    rgba(250, 83, 246, 1) 0%,
+    rgba(239, 0, 188, 0.15569555458902307) 89%,
+    rgba(244, 0, 167, 0.8419700643929446) 100%
+  );
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+table {
+  /*largura*/
+  width: 100%;
+}
+
+#gcocid,
+#gmetro,
+#gsudst,
+#gnoroe,
+#gcorie,
+#gsudoe,
+#gnorde {
+  color: yellow;
+  background-color: rgb(245, 0, 159);
+}
+
+td,
+th {
+  color: rgb(193, 0, 132);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#droRegioes {
+  color: rgb(245, 0, 159);
+}
+.navbar a {
+  background-color: rgb(245, 0, 159);
+  padding: 8px;
+  color: rgb(248, 194, 57) !important;
+}
+.navbar div {
+  background-color: rgb(245, 0, 159);
+  padding: auto;
+}
+a:hover {
+  color: rgb(207, 4, 4) !important;
+}
+.row div {
+  background-color: rgb(226, 43, 189);
+  padding: 30px;
+  margin: auto;
+  color: rgb(208, 226, 43) !important;
+}
+p {
+  color: rgb(226, 43, 189);
+  text-transform: uppercase !important;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+button {
+  color: yellow !important;
+  position: sticky;
+  border-radius: 50% !important;
+  width: 10% !important;
+  font-family: Verdana, Geneva, Tahoma, sans-serif !important;
+  background-color: rgb(226, 43, 189) !important;
+}
+.top {
+  --offset: 50px;
+  position: static;
+  bottom: 10px;
+  margin-right: 10px;
+  place-self: end;
+  margin-top: auto;
+  text-decoration: none;
+  padding: 10px;
+  font-family: sans-serif;
+  color: #dd04c0;
+  background: #eaea1c;
+  border-radius: 100px;
+  white-space: nowrap;
+}
